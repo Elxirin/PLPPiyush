@@ -1,0 +1,29 @@
+Post : http://localhost:6500/uploadFile/2004
+GEt: http://localhost:6500/productimages/2004
+Get: http://localhost:6500/rating/average/1001
+Post: http://localhost:6500/merchant
+{
+	"firstName":"Anil",
+	"lastName":"Gajbhiye",
+	"email":"anil@gmail.com",
+	"storeName":"WaterFront",
+	"phone":"8856889373",
+	"password":"anil1234",
+	"revenue":0
+}
+
+Post: http://localhost:6500/productDetails
+{
+	"productId":2004,
+	"productName":"Vivo Z1x (Phantom Purple, 64 GB)  (6 GB RAM)",
+	"categoryId":2000,
+	"price":13999,
+	"productDesc":
+	[
+		{	
+			 "descId":20044,
+			 "label":"Vivo Z1x (Phantom Purple, 64 GB)  (6 GB RAM)",
+			 "value":"4 GB RAM | 64 GB ROM | 16.26 cm (6.4 inch) Display 13MP Rear Camera 5000 mAh Battery"
+		}
+	]
+}
